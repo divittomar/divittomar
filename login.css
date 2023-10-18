@@ -1,0 +1,201 @@
+
+        #navbar {
+            display: block;
+        }
+
+        #navbar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #navbar li {
+            margin: 10px 0;
+        }
+
+        #navbar a {
+            text-decoration: none;
+           /* color: #333;*/
+        }
+
+        #menu-img {
+            cursor: pointer;
+        }
+        * {
+            margin: 0%;
+            padding: 0%;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        
+        nav {
+            background-color: rgb(0, 0, 0);
+            height: 85px;
+            width: 100%;
+        }
+        
+        label.logo1 {
+            color: white;
+            font-size: 20px;
+            line-height: 80px;
+            padding: 0 20px;
+            font-weight: bold;
+        
+        
+        }
+        
+        nav ul {
+            float: right;
+            margin-right: 20px;
+        
+        }
+        
+        nav ul li {
+            display: inline-block;
+            line-height: 80px;
+            margin: 0 5px;
+        }
+        
+        nav ul li a {
+            color: white;
+            font-size: 18px;
+            padding: 7px 13px;
+            border-radius: 3px;
+            text-transform: uppercase;
+        }
+        
+        a.active,
+        a:hover {
+            background: rgb(16, 49, 180);
+            transition: .5s;
+        }
+        
+        .checkbtn {
+            font-size: 30px;
+            color: white;
+            float: right;
+            line-height: 70px;
+            margin: 15px;
+            cursor: pointer;
+            display: none;
+        }
+        
+        #check {
+            display: none;
+        
+        }
+        
+        @media (min-width:952px) {
+            label.logo {
+                font-size: 30px;
+                padding-left: 50px;
+        
+            }
+        
+            nav ul li a {
+                font-size: 16px;
+        
+            }
+        }
+        
+        @media (max-width:858px) {
+            .checkbtn {
+                display: block;
+                
+            }
+            
+            
+            ul {
+                position: fixed;
+                width: 100%;
+                height: 100vh;
+                background-color: rgb(52, 43, 112);
+                top: 80px;
+                left: -100;
+                transition: all .5s;
+                text-align: center;
+            }
+        
+        
+            nav ul li {
+                display: block;
+                margin: 50px 0;
+                line-height: 30px;
+            }
+        
+            nav ul li a {
+                font-size: 20px;
+            }
+        
+            a:hover,
+            a.active {
+                /* background: none; */
+                color: rgb(253, 113, 113);
+                text-decoration: underline;
+        
+            }
+        
+            #check:checked~ul {
+                left: 0;
+            }
+        }
+        /* section {
+            background: url(https://wallpapercave.com/wp/wp2382500.jpg) no-repeat;
+            background-size: cover;
+            height: 100vh - 80px;
+        } */
+        section {
+                background-image: url('https://wallpapercave.com/wp/wp2382500.jpg'); /* Replace 'background.jpg' with your background image */
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+                text-align: center;
+                padding: 100px 0;
+                height: 100vh; /* Ensure the section takes up the entire viewport height */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        
+        
+        /*#menu {
+            height: 38px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }*/
+
+        #menu-img:hover {
+            .checkbtn {
+                display: block;
+                
+            }
+            
+            
+            ul {
+                position: fixed;
+                width: 100%;
+                height: 100vh;
+                background-color: rgb(52, 43, 112);
+                top: 80px;
+                left: -100;
+                transition: all .5s;
+                text-align: center;
+            }
+        
+        
+            nav ul li {
+                display: block;
+                margin: 50px 0;
+                line-height: 30px;
+            }
+        
+            nav ul li a {
+                font-size: 20px;
+            }
+        }
+
